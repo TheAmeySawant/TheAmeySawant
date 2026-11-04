@@ -1,92 +1,95 @@
-<h1 align="center">Hi, I'm Amey Sawant 👋</h1>
+# Hi there, I'm Amey Sawant 👋
 
-<p align="center">
-  <b>Rust · Distributed Systems · Backend Engineering</b><br/>
-  <i>fn main() { build_reliable_systems(); }</i>
-</p>
+```rust
+struct Developer {
+    name: &'static str,
+    role: &'static str,
+    location: &'static str,
+    interests: Vec<&'static str>,
+}
 
-<p align="center">
-  <a href="mailto:amey.sawant4444@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-</p>
-
----
-
-## 🚀 About Me
-
-- 🎓 Computer Engineering student (B.E., expected Jul 2027) based in Mumbai, India
-- 🦀 I build concurrent and distributed storage systems in **Rust**: write-ahead logging, snapshots, Raft, REST/TCP/gRPC APIs
-- 📊 I also build data pipelines for cybersecurity logs (Vector → OCSF → Parquet → ClickHouse)
-- 💼 Looking for **Backend / Rust / Systems Engineering** roles and internships
-- 📈 Interested in reliable backend systems and trading infrastructure
-
----
-
-## 🛠️ Tech Stack
-
-**Languages**
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white)
-
-**Backend & Frameworks**
-
-![Tokio](https://img.shields.io/badge/Tokio-async-orange?style=flat-square)
-![Axum](https://img.shields.io/badge/Axum-000000?style=flat-square&logo=rust&logoColor=white)
-![Actix](https://img.shields.io/badge/Actix--Web-000000?style=flat-square&logo=rust&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
-
-**DevOps & Tools**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+fn main() {
+    let amey = Developer {
+        name: "Amey Sawant",
+        role: "Software Engineer | Systems & Distributed Systems",
+        location: "Mumbai, India",
+        interests: vec![
+            "Systems Programming (Rust/C++)",
+            "Distributed Storage & Consensus (Raft)",
+            "Concurrent Architectures (Tokio/Actix)",
+            "Data Processing Pipelines & Columnar Storage",
+        ],
+    };
+    println!("{:#?}", amey);
+}
+```
 
 ---
 
-## 📌 Featured Projects
+### 🚀 About Me
 
-| Project | What it does | Stack |
-|---|---|---|
-| **[Distributed Key-Value Store](https://github.com/YOUR_USERNAME/YOUR_KV_REPO)** | Distributed storage engine with persistent storage, write-ahead logging (WAL), snapshot-based state management, and REST/TCP APIs | `Rust` `Tokio` `Raft` `Axum` `gRPC` `Protobuf` |
-| **[Universal Log Pre-Processing Framework (ULPF)](https://github.com/YOUR_USERNAME/YOUR_ULPF_REPO)** | Modular cybersecurity pipeline: log ingestion and OCSF normalization with Vector, a Rust worker producing compressed Parquet files, and a Streamlit monitoring dashboard | `Rust` `Docker` `Vector` `Redpanda` `Apache Parquet` `Grafana` `ClickHouse` `Streamlit` |
-| **[Multithreaded Key-Value Store](https://github.com/YOUR_USERNAME/YOUR_MTKV_REPO)** | Persistent KV store with custom binary serialization, concurrent reads/writes (RwLock, Mutex), and TCP + HTTP interfaces | `Rust` `Tokio` `File I/O` `Networking` |
-| **[PDFChatBot](https://github.com/YOUR_USERNAME/YOUR_PDFCHATBOT_REPO)** | AI document assistant that answers questions from PDFs using semantic search with LLM fallback, JWT auth, and Qdrant vector storage | `Python` `FastAPI` `Qdrant` `Docker` |
+- 🎓 **Computer Engineering Student** focused on **Rust-based backend & systems development**.
+- 🛠️ Currently building **distributed key-value storage engines** featuring consensus (Raft), Write-Ahead Logging (WAL), snapshots, and gRPC/REST APIs.
+- ⚡ Experienced in high-performance log processing pipelines using **Vector, Apache Parquet, and Clickhouse**.
+- 🎯 Passionate about **reliable backend systems, low-latency performance, and distributed systems design**.
 
 ---
 
-## 🔭 Currently
+### 🛠️ Tech Stack
 
-- 🦀 Building a **distributed key-value store** in Rust (Raft, WAL, snapshots, gRPC)
-- 📚 Going deeper into distributed systems and concurrent programming
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
+<p align="left">
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <br/>
+  <!-- Frameworks & Ecosystem -->
+  <img src="https://img.shields.io/badge/Tokio-000000?style=for-the-badge&logo=rust&logoColor=red" alt="Tokio" />
+  <img src="https://img.shields.io/badge/Axum-000000?style=for-the-badge&logo=rust&logoColor=orange" alt="Axum" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/gRPC-2DA6B0?style=for-the-badge&logo=grpc&logoColor=white" alt="gRPC" />
+  <br/>
+  <!-- Databases & Storage -->
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Clickhouse-FFCC00?style=for-the-badge&logo=clickhouse&logoColor=black" alt="Clickhouse" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Qdrant-D01257?style=for-the-badge&logo=qdrant&logoColor=white" alt="Qdrant" />
+  <br/>
+  <!-- DevOps & Tools -->
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
 ---
 
+### 📌 Featured Projects
+
+| Project | Tech Stack | Highlights |
+| :--- | :--- | :--- |
+| **Distributed Key-Value Store** | `Rust`, `Tokio`, `Raft`, `Axum`, `gRPC` | Asynchronous key-value engine with Raft consensus, persistent WAL, snapshotting, and gRPC/TCP interfaces. |
+| **Universal Log Pre-Processing Framework** | `Rust`, `Vector`, `Parquet`, `Clickhouse` | High-throughput cybersecurity log pipeline converting OCSF normalized JSON to compressed Parquet columnar format. |
+| **Multithreaded Key-Value Store** | `Rust`, `Tokio`, `RwLock`, `Mutex` | Low-level concurrent storage engine featuring custom binary serialization and thread-safe shared-state access. |
+| **PDFChatBot** | `Python`, `FastAPI`, `Qdrant`, `Docker` | AI assistant querying document semantics using vector search, LLM fallback, and JWT authentication. |
+
+---
+
+### 📈 GitHub Stats
+
 <p align="center">
-  <i>Open to opportunities. Feel free to reach out at <a href="mailto:amey.sawant4444@gmail.com">amey.sawant4444@gmail.com</a></i>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=ameysawant&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ameysawant&layout=compact&theme=tokyonight&hide=html,css" />
 </p>
+
+---
+
+### 📫 Connect With Me
+
+- **Email:** [amey.sawant4444@gmail.com](mailto:amey.sawant4444@gmail.com)
+- **LinkedIn:** [linkedin.com/in/ameysawant](https://linkedin.com)
+- **Location:** Mumbai, India 🇮🇳
