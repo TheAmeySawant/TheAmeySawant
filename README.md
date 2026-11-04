@@ -1,141 +1,92 @@
-::: {align="center"}
-# Hi, I'm Amey Sawant 👋
+<h1 align="center">Hi, I'm Amey Sawant 👋</h1>
 
-### Software Engineer \| Rust · Backend Systems · Distributed Systems
+<p align="center">
+  <b>Rust · Distributed Systems · Backend Engineering</b><br/>
+  <i>fn main() { build_reliable_systems(); }</i>
+</p>
 
-I enjoy building reliable backend infrastructure, concurrent systems,
-and storage-oriented software.
+<p align="center">
+  <a href="mailto:amey.sawant4444@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+</p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-TheAmeySawant-181717?style=flat&logo=github)](https://github.com/TheAmeySawant)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat&logo=gmail&logoColor=white)](mailto:amey.sawant4444@gmail.com)
-![Location](https://img.shields.io/badge/Location-Mumbai%2C%20India-0A66C2?style=flat)
-:::
+---
 
-------------------------------------------------------------------------
+## 🚀 About Me
 
-## About Me
+- 🎓 Computer Engineering student (B.E., expected Jul 2027) based in Mumbai, India
+- 🦀 I build concurrent and distributed storage systems in **Rust**: write-ahead logging, snapshots, Raft, REST/TCP/gRPC APIs
+- 📊 I also build data pipelines for cybersecurity logs (Vector → OCSF → Parquet → ClickHouse)
+- 💼 Looking for **Backend / Rust / Systems Engineering** roles and internships
+- 📈 Interested in reliable backend systems and trading infrastructure
 
--   🎓 Computer Engineering student at **Saraswati College of
-    Engineering**, expected to graduate in **2027**.
--   🦀 Focused on **Rust, backend engineering, systems programming, and
-    distributed systems**.
--   ⚙️ Interested in concurrency, storage engines, data processing
-    pipelines, and reliable infrastructure.
--   🧰 Also work with Python, JavaScript, Node.js, FastAPI, databases,
-    and containerized applications.
--   🌱 Currently deepening my understanding of distributed systems and
-    production-grade backend engineering.
+---
 
-## Technical Skills
+## 🛠️ Tech Stack
 
 **Languages**
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![C/C++](https://img.shields.io/badge/C%2FC++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white)
 
-**Backend & Systems**
+**Backend & Frameworks**
 
-![Tokio](https://img.shields.io/badge/Tokio-000000?style=flat&logo=rust&logoColor=white)
-![Axum](https://img.shields.io/badge/Axum-333333?style=flat) ![Actix
-Web](https://img.shields.io/badge/Actix--Web-000000?style=flat)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Tokio](https://img.shields.io/badge/Tokio-async-orange?style=flat-square)
+![Axum](https://img.shields.io/badge/Axum-000000?style=flat-square&logo=rust&logoColor=white)
+![Actix](https://img.shields.io/badge/Actix--Web-000000?style=flat-square&logo=rust&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white)
 
-**Databases & Data**
+**Databases**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat&logo=clickhouse&logoColor=black)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
 
-**Infrastructure & Tools**
+**DevOps & Tools**
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 
-## Featured Projects
+---
 
-### 1. Universal Log Pre-Processing Framework (ULPF)
+## 📌 Featured Projects
 
-A modular cybersecurity data pipeline designed to ingest, parse,
-normalize, and process log events.
+| Project | What it does | Stack |
+|---|---|---|
+| **[Distributed Key-Value Store](https://github.com/YOUR_USERNAME/YOUR_KV_REPO)** | Distributed storage engine with persistent storage, write-ahead logging (WAL), snapshot-based state management, and REST/TCP APIs | `Rust` `Tokio` `Raft` `Axum` `gRPC` `Protobuf` |
+| **[Universal Log Pre-Processing Framework (ULPF)](https://github.com/YOUR_USERNAME/YOUR_ULPF_REPO)** | Modular cybersecurity pipeline: log ingestion and OCSF normalization with Vector, a Rust worker producing compressed Parquet files, and a Streamlit monitoring dashboard | `Rust` `Docker` `Vector` `Redpanda` `Apache Parquet` `Grafana` `ClickHouse` `Streamlit` |
+| **[Multithreaded Key-Value Store](https://github.com/YOUR_USERNAME/YOUR_MTKV_REPO)** | Persistent KV store with custom binary serialization, concurrent reads/writes (RwLock, Mutex), and TCP + HTTP interfaces | `Rust` `Tokio` `File I/O` `Networking` |
+| **[PDFChatBot](https://github.com/YOUR_USERNAME/YOUR_PDFCHATBOT_REPO)** | AI document assistant that answers questions from PDFs using semantic search with LLM fallback, JWT auth, and Qdrant vector storage | `Python` `FastAPI` `Qdrant` `Docker` |
 
--   Uses **Vector** for log ingestion, parsing, and OCSF schema
-    normalization.
--   Includes a **Rust-based worker** to transform normalized JSON events
-    into compressed Apache Parquet files.
--   Integrates a Streamlit dashboard for pipeline monitoring and schema
-    testing.
--   Uses Docker Compose for multi-container deployment.
+---
 
-**Technologies:** Rust · Vector · OCSF · Apache Parquet · Docker Compose
-· Streamlit · ClickHouse
+## 🔭 Currently
 
-### 2. Distributed Key-Value Store
+- 🦀 Building a **distributed key-value store** in Rust (Raft, WAL, snapshots, gRPC)
+- 📚 Going deeper into distributed systems and concurrent programming
 
-A Rust-based distributed storage engine under development, focused on
-persistence and distributed coordination.
+---
 
--   Implementing persistent storage with a **write-ahead log (WAL)** and
-    snapshot-based state management.
--   Developing REST and TCP interfaces for client interaction.
--   Exploring distributed coordination using **Raft**.
+## 📊 GitHub Stats
 
-**Technologies:** Rust · Tokio · Raft · Axum · gRPC · Protocol Buffers
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
+</p>
 
-### 3. Multithreaded Key-Value Store
+---
 
-A concurrent key-value storage engine with persistent storage and
-client-facing interfaces.
-
--   Implemented persistent storage with custom binary serialization.
--   Built concurrent read/write operations using asynchronous
-    programming.
--   Used `RwLock` and `Mutex` for shared-state synchronization.
--   Designed TCP and HTTP interfaces.
-
-**Technologies:** Rust · Tokio · Concurrency · File I/O · Networking
-
-### 4. PDFChatBot
-
-An AI-powered document assistant that answers questions about PDF
-documents.
-
--   Uses semantic search with an LLM fallback to answer document-related
-    questions.
--   Implements JWT authentication and vector storage with Qdrant.
--   Exposes functionality through a FastAPI REST API.
--   Containerized with Docker.
-
-**Technologies:** Python · FastAPI · LLMs · Semantic Search · Qdrant ·
-Docker
-
-## What I'm Interested In
-
--   Rust backend and systems engineering
--   Distributed systems and consensus algorithms
--   Database internals, storage engines, and crash recovery
--   Concurrent and asynchronous programming
--   Infrastructure software and data-processing systems
-
-## Connect
-
--   **GitHub:** [@TheAmeySawant](https://github.com/TheAmeySawant)
--   **Email:** <amey.sawant4444@gmail.com>
--   **Location:** Mumbai, India
-
-------------------------------------------------------------------------
-
-::: {align="center"}
-*Building systems that are reliable, efficient, and understandable.*
-:::
+<p align="center">
+  <i>Open to opportunities. Feel free to reach out at <a href="mailto:amey.sawant4444@gmail.com">amey.sawant4444@gmail.com</a></i>
+</p>
